@@ -6654,7 +6654,7 @@ Transform:
   m_GameObject: {fileID: 1279365753}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13008602, y: 0.009012138, z: -17.842041}
+  m_LocalPosition: {x: -0.13008602, y: 5.99, z: -17.842041}
   m_LocalScale: {x: 1.7842041, y: 2.3171484, z: 1.7842041}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7504,7 +7504,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2083830028}
   - component: {fileID: 2083830027}
-  - component: {fileID: 2083830025}
   - component: {fileID: 2083830030}
   - component: {fileID: 2083830029}
   - component: {fileID: 2083830031}
@@ -7516,18 +7515,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2083830025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083830024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40cedbb8836620c45b26810d36f82cd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!212 &2083830027
 SpriteRenderer:
   m_ObjectHideFlags: 0
