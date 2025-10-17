@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
 
-        //Flip();
+        Flip();
     }
 
     private void FixedUpdate()
