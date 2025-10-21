@@ -250,11 +250,11 @@ Transform:
   m_GameObject: {fileID: 102691835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.12, y: 3.72, z: 0}
+  m_LocalPosition: {x: 5.38586, y: -5.2878, z: 0}
   m_LocalScale: {x: 2.942436, y: 0.28, z: 0.79999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1945172840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133788527
 GameObject:
@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 178571239}
   - component: {fileID: 178571242}
   - component: {fileID: 178571241}
-  - component: {fileID: 178571240}
+  - component: {fileID: 178571243}
   m_Layer: 0
   m_Name: GreenButton
   m_TagString: Untagged
@@ -335,20 +335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 236096895}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &178571240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178571238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c09291f8fe97742b9c6a11153ef5d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PurplePressurePlate
-  slider: {fileID: 0}
-  box: {fileID: 0}
 --- !u!61 &178571241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -379,7 +365,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -453,6 +439,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &178571243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178571238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c01b919f90c0947924547cf3f185ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GreenPressurePlate
+  slider: {fileID: 1945172839}
+  box: {fileID: 1452377296}
 --- !u!1 &236096894
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ Transform:
   m_GameObject: {fileID: 282689224}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -1.136, z: 0}
+  m_LocalPosition: {x: -0.02, y: -0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -533,7 +533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &284147814
 Transform:
   m_ObjectHideFlags: 0
@@ -594,7 +594,7 @@ FixedJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436956816}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
@@ -765,7 +765,7 @@ Transform:
   m_GameObject: {fileID: 616167138}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13008602, y: 5.99, z: -17.842041}
+  m_LocalPosition: {x: 0.15, y: 2.6, z: -17.842041}
   m_LocalScale: {x: 1.7842041, y: 2.3171484, z: 1.7842041}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1142,11 +1142,11 @@ Transform:
   m_GameObject: {fileID: 780956884}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.12, y: 10.244519, z: 0}
+  m_LocalPosition: {x: 5.38586, y: 1.2367191, z: 0}
   m_LocalScale: {x: 2.942436, y: 0.28, z: 0.79999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1945172840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &838135074
 GameObject:
@@ -1194,8 +1194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c09291f8fe97742b9c6a11153ef5d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  slider: {fileID: 0}
-  box: {fileID: 0}
+  slider: {fileID: 2000577047}
+  box: {fileID: 436956816}
 --- !u!61 &838135077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 938318076}
   - component: {fileID: 938318078}
   - component: {fileID: 938318077}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'PurpleSlider '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ Transform:
   m_GameObject: {fileID: 1452377296}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.43, y: 4.75, z: 0}
+  m_LocalPosition: {x: -0.429, y: 1.683, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356c17e62e68f14a84c16dee6ec7f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPush
-  distance: 0.5
+  distance: 0.6
   boxMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2071,13 +2071,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1489358318
 MonoBehaviour:
@@ -2171,7 +2171,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 8524423567717624751, guid: 3de353d7be8d08046a6cea9626d8657c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2191,8 +2191,8 @@ Transform:
   m_GameObject: {fileID: 1489358314}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7, y: -3.53, z: 0}
-  m_LocalScale: {x: 0.560474, y: 0.43156496, z: 0.560474}
+  m_LocalPosition: {x: -0.9, y: 1.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 616167139}
@@ -8625,6 +8625,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1945172839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1945172840}
+  m_Layer: 0
+  m_Name: GreenSliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1945172840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945172839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.26586, y: 9.0078, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 780956887}
+  - {fileID: 102691838}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000577047
 GameObject:
   m_ObjectHideFlags: 0
@@ -8669,7 +8702,7 @@ GameObject:
   - component: {fileID: 2061811100}
   - component: {fileID: 2061811102}
   - component: {fileID: 2061811101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PurpleSlider  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8685,7 +8718,7 @@ Transform:
   m_GameObject: {fileID: 2061811099}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 5.03, y: -9.51, z: 0}
+  m_LocalPosition: {x: 5.01, y: -7.41, z: 0}
   m_LocalScale: {x: 3.18, y: 0.28, z: 0.79999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8806,7 +8839,7 @@ GameObject:
   - component: {fileID: 2129035563}
   - component: {fileID: 2129035566}
   - component: {fileID: 2129035565}
-  - component: {fileID: 2129035564}
+  - component: {fileID: 2129035567}
   m_Layer: 0
   m_Name: RedButton
   m_TagString: Untagged
@@ -8829,20 +8862,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 236096895}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2129035564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129035562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c09291f8fe97742b9c6a11153ef5d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PurplePressurePlate
-  slider: {fileID: 0}
-  box: {fileID: 0}
 --- !u!61 &2129035565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8873,7 +8892,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8947,6 +8966,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2129035567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129035562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00dadfb3e55c3f4394bf42ed909958a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedPressurePlate
+  platform: {fileID: 284147813}
+  box: {fileID: 931287934}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -8959,6 +8992,5 @@ SceneRoots:
   - {fileID: 236096895}
   - {fileID: 1746842544}
   - {fileID: 1549918270}
-  - {fileID: 780956887}
-  - {fileID: 102691838}
+  - {fileID: 1945172840}
   - {fileID: 284147814}
