@@ -19,8 +19,7 @@ public class GreenPressurePlate : MonoBehaviour
         if(collision.gameObject == box){
             Debug.Log("Green Released");
 
-            if (slider != null)
-                slider.SetActive(false);
+            slider.gameObject.SetActive(false);
         }
     }
 }

@@ -10,7 +10,7 @@ public class PurplePressurePlate : MonoBehaviour
         if(collision.gameObject == box){
             Debug.Log("Purple Pressed");
 
-                slider.gameObject.SetActive(false);
+            slider.gameObject.SetActive(false);
         }
     }
 

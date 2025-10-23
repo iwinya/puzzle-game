@@ -19,8 +19,7 @@ public class RedPressurePlate : MonoBehaviour
         if(collision.gameObject == box){
             Debug.Log("Red Released");
 
-            if (platform != null)
-                platform.SetActive(false);
+            platform.gameObject.SetActive(false);
         }
     }
 }
